@@ -1,0 +1,17 @@
+{
+    "DATA_BD": {
+      "BD_HOST": "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com",
+      "BD_PORT": "5439",
+      "BD_NAME": "data-engineer-database",
+      "BD_USER": "danielzamacona94_coderhouse",
+      "BD_PASS": "yMd56zpE3p",
+      "DATA_TABLE": {
+        "NAME_TABLE": "exchanges_rates_over_time",
+        "COLUMNS": [ "currency", "ammount", "base_currency", "operation_date", "rates" ]
+      }
+    },
+    "DATA_API": {
+      "URL_BASE": "https://api.frankfurter.app",
+      "FROM_CURRENCY": "USD"
+    }
+  }
